@@ -4,7 +4,7 @@ model = 'Mambo';
 %LLA = Latitude, longitude, altitude. following is xierqi data
 init.posLLA = [116.30930589005561 40.051800562721695 50];
 %local coordinate 
-init.posNED = [0.0, 0.0, 0.0];
+init.posNED = [0.0, 0.0, -0.046];
 g = 9.81;
 Ts = 0.005;
 TFinal = 120;
